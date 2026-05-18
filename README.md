@@ -132,8 +132,8 @@ docker exec -it spark-etl-postgres-1 psql -U censo -d censo_escolar -c "CREATE D
 ### 6. Download the census data
 
 ```bash
-python extract.py          # downloads 2021 data by default
-python extract.py 2020     # or specify a year
+python extract.py          # downloads 2017 data by default
+python extract.py 2018     # or specify a year
 ```
 
 > This downloads ~500MB from INEP, extracts `ESCOLAS.CSV` into `data/`, and removes the ZIP.
