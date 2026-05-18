@@ -85,7 +85,7 @@ INEP Open Data Portal
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/spark-etl.git
+git clone https://github.com/adrianajfry04/spark-etl.git
 cd spark-etl
 ```
 
