@@ -1,1 +1,6 @@
-
+venv/
+data/*.CSV
+data/*.zip
+__pycache__/
+*.pyc
+.env
